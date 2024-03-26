@@ -17,5 +17,5 @@ ContactItem.protoTypes = {
   id: PropTypes.number.isRequired, 
   name: PropTypes.string.isRequired, 
   number: PropTypes.string.isRequired,
-  deletContacts: PropTypes.func.isRequired
+  deleteContacts: PropTypes.func.isRequired
 }

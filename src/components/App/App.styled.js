@@ -2,14 +2,16 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
 margin: 0 auto;
+margin-top: 30px;
 display: flex;
 flex-direction: column;
 align-items: center;
 `
 
 export const Title = styled.h1`
-font-size: 35px;
+font-size: 40px;
 text-align: center;
+margin-bottom: 30px;
 `
 
 export const Span = styled.span`
@@ -20,6 +22,7 @@ export const SubTitle = styled.h2`
 font-size: 30px;
 text-align: center;
 font-style: italic;
+margin-bottom: 30px;
 `
 
 export const Text = styled.p`
