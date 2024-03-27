@@ -6,6 +6,7 @@ width: 450px;
 border-radius: 10px;
 padding: 50px;
 background-color: #ebebeb;
+margin-bottom: 30px;
 `
 
 export const Forma = styled.form`
@@ -25,6 +26,9 @@ height: 35px;
 font-size: 20px;
 color: #3373e2;
 border: none;
+&:focus-visible {
+    outline-color: #3373e2;
+}
 `
 export const Button = styled.button`
 display: flex;

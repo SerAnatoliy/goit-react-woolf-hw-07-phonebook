@@ -3,8 +3,9 @@ import styled from 'styled-components'
 export const Item = styled.li`
 display: flex;
 gap: 30px;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
+width: 100%;
 `
 
 export const Name = styled.p`
